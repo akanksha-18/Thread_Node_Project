@@ -1,7 +1,8 @@
 import { VStack ,Box, Flex,Text, Link} from '@chakra-ui/react'
 import { Avatar } from '@chakra-ui/react'
 import {BsInstagram} from 'react-icons/bs'
-import React from 'react'
+import {CgMoreO} from 'react-icons/cg'
+
 
 const UserHeader = () => {
   return (
@@ -33,8 +34,11 @@ const UserHeader = () => {
     <Link color={"gray.light"}>instagram.com</Link>
     </Flex>
     <Flex>
-        <Box>
+        <Box className='icon-container'>
             <BsInstagram size={24} cursor={"pointer"}/>
+        </Box>
+        <Box className='icon-container'>
+            <CgMoreO size={24} cursor={"pointer"}/>
         </Box>
     </Flex>
     </Flex>
