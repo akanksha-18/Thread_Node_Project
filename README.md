@@ -60,11 +60,12 @@ This application is designed to mimic a thread-based discussion platform where u
    ```bash
    cd backend
    npm run dev
-3.  **Start the frontend server:**
+3. **Start the frontend server:**
 
    ```bash
    cd frontend
    npm run dev
+
 ## API Endpoints
 
 ### User Authentication:
@@ -82,6 +83,8 @@ This application is designed to mimic a thread-based discussion platform where u
 
 - **POST /api/messages** - Post a new message
 - **GET /api/messages/:threadId** - Get messages for a specific thread
+
+
 ![image](https://github.com/user-attachments/assets/129dd7f5-4f46-42aa-8a80-9297962152b8)
 ![image](https://github.com/user-attachments/assets/c78fca09-bd57-4cb9-b459-4217806e264b)
 ![image](https://github.com/user-attachments/assets/19300366-193a-41ca-8e75-cfb49274a20f)
